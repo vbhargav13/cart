@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Payment – MyCart</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🛒 MyCart</div>
+    <nav class="nav">
+        <a href="../index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<main class="main">
+    <h2>Payment</h2>
+    <form class="form" onsubmit="alert('Payment completed successfully!'); return false;">
+        <input type="text" placeholder="Cardholder Name" required>
+        <input type="text" placeholder="Card Number" required>
+        <input type="text" placeholder="Expiry (MM/YY)" required>
+        <input type="text" placeholder="CVV" required>
+        <button type="submit">Pay ₹1198</button>
+    </form>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2025 MyCart</p>
+</footer>
+
+</body>
+</html>
